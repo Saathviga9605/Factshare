@@ -1,0 +1,40 @@
+
+# Python/Flask Backend
+/backend/.env
+backend/__pycache__/
+backend/*.pyc
+backend/venv/
+backend/.venv/
+backend/pip-wheel-metadata/
+backend/*.log
+backend/chat_history.json
+
+# React Frontend
+frontend/node_modules/
+frontend/.pnp/              # Added from frontend/.gitignore
+frontend/.pnp.js            # Added from frontend/.gitignore
+frontend/coverage/          # Added from frontend/.gitignore
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/.env
+frontend/.env.local         # Added from frontend/.gitignore
+frontend/.env.development.local  # Added from frontend/.gitignore
+frontend/.env.test.local    # Added from frontend/.gitignore
+frontend/.env.production.local  # Added from frontend/.gitignore
+frontend/npm-debug.log*     # Added from frontend/.gitignore
+frontend/yarn-debug.log*    # Added from frontend/.gitignore
+frontend/yarn-error.log*    # Added from frontend/.gitignore
+frontend/*.log
+
+# General
+*.DS_Store
+*.swp
+*.swo
+*.log
+.env
+.idea/
+.vscode/
+*.code-workspace
+*.tgz
+*.zip
